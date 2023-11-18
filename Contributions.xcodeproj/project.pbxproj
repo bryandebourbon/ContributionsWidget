@@ -8,12 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		2E7E11AD2B084DBA0075B7DC /* ContributionsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E7E11AC2B084DBA0075B7DC /* ContributionsApp.swift */; };
-		2E7E11AF2B084DBA0075B7DC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E7E11AE2B084DBA0075B7DC /* ContentView.swift */; };
 		2E7E11B12B084DBB0075B7DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E7E11B02B084DBB0075B7DC /* Assets.xcassets */; };
 		2E7E11B52B084DBB0075B7DC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E7E11B42B084DBB0075B7DC /* Preview Assets.xcassets */; };
 		2E7E11BF2B084DBB0075B7DC /* ContributionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E7E11BE2B084DBB0075B7DC /* ContributionsTests.swift */; };
 		2E7E11C92B084DBB0075B7DC /* ContributionsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E7E11C82B084DBB0075B7DC /* ContributionsUITests.swift */; };
 		2E7E11CB2B084DBB0075B7DC /* ContributionsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E7E11CA2B084DBB0075B7DC /* ContributionsUITestsLaunchTests.swift */; };
+		2E7E11D82B084DD10075B7DC /* TokenMVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E7E11D72B084DD00075B7DC /* TokenMVC.swift */; };
+		2E7E11DC2B084DE20075B7DC /* ContributionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E7E11D92B084DE10075B7DC /* ContributionsView.swift */; };
+		2E7E11DD2B084DE20075B7DC /* ContributionsFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E7E11DA2B084DE20075B7DC /* ContributionsFetcher.swift */; };
+		2E7E11DE2B084DE20075B7DC /* ContributionsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E7E11DB2B084DE20075B7DC /* ContributionsModel.swift */; };
+		2E7E11E22B084EC30075B7DC /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E7E11E12B084EC30075B7DC /* File.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +40,6 @@
 /* Begin PBXFileReference section */
 		2E7E11A92B084DBA0075B7DC /* Contributions.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Contributions.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E7E11AC2B084DBA0075B7DC /* ContributionsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContributionsApp.swift; sourceTree = "<group>"; };
-		2E7E11AE2B084DBA0075B7DC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2E7E11B02B084DBB0075B7DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2E7E11B22B084DBB0075B7DC /* Contributions.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Contributions.entitlements; sourceTree = "<group>"; };
 		2E7E11B42B084DBB0075B7DC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -45,6 +48,11 @@
 		2E7E11C42B084DBB0075B7DC /* ContributionsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ContributionsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E7E11C82B084DBB0075B7DC /* ContributionsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContributionsUITests.swift; sourceTree = "<group>"; };
 		2E7E11CA2B084DBB0075B7DC /* ContributionsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContributionsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2E7E11D72B084DD00075B7DC /* TokenMVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TokenMVC.swift; sourceTree = "<group>"; };
+		2E7E11D92B084DE10075B7DC /* ContributionsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContributionsView.swift; sourceTree = "<group>"; };
+		2E7E11DA2B084DE20075B7DC /* ContributionsFetcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContributionsFetcher.swift; sourceTree = "<group>"; };
+		2E7E11DB2B084DE20075B7DC /* ContributionsModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContributionsModel.swift; sourceTree = "<group>"; };
+		2E7E11E12B084EC30075B7DC /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +83,7 @@
 		2E7E11A02B084DBA0075B7DC = {
 			isa = PBXGroup;
 			children = (
+				2E7E11E12B084EC30075B7DC /* File.swift */,
 				2E7E11AB2B084DBA0075B7DC /* Contributions */,
 				2E7E11BD2B084DBB0075B7DC /* ContributionsTests */,
 				2E7E11C72B084DBB0075B7DC /* ContributionsUITests */,
@@ -96,7 +105,10 @@
 			isa = PBXGroup;
 			children = (
 				2E7E11AC2B084DBA0075B7DC /* ContributionsApp.swift */,
-				2E7E11AE2B084DBA0075B7DC /* ContentView.swift */,
+				2E7E11DA2B084DE20075B7DC /* ContributionsFetcher.swift */,
+				2E7E11DB2B084DE20075B7DC /* ContributionsModel.swift */,
+				2E7E11D92B084DE10075B7DC /* ContributionsView.swift */,
+				2E7E11D72B084DD00075B7DC /* TokenMVC.swift */,
 				2E7E11B02B084DBB0075B7DC /* Assets.xcassets */,
 				2E7E11B22B084DBB0075B7DC /* Contributions.entitlements */,
 				2E7E11B32B084DBB0075B7DC /* Preview Content */,
@@ -259,8 +271,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2E7E11AF2B084DBA0075B7DC /* ContentView.swift in Sources */,
+				2E7E11DC2B084DE20075B7DC /* ContributionsView.swift in Sources */,
+				2E7E11E22B084EC30075B7DC /* File.swift in Sources */,
+				2E7E11D82B084DD10075B7DC /* TokenMVC.swift in Sources */,
 				2E7E11AD2B084DBA0075B7DC /* ContributionsApp.swift in Sources */,
+				2E7E11DD2B084DE20075B7DC /* ContributionsFetcher.swift in Sources */,
+				2E7E11DE2B084DE20075B7DC /* ContributionsModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
