@@ -17,7 +17,7 @@
 		2E7E11DC2B084DE20075B7DC /* ContributionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E7E11D92B084DE10075B7DC /* ContributionsView.swift */; };
 		2E7E11DD2B084DE20075B7DC /* ContributionsFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E7E11DA2B084DE20075B7DC /* ContributionsFetcher.swift */; };
 		2E7E11DE2B084DE20075B7DC /* ContributionsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E7E11DB2B084DE20075B7DC /* ContributionsModel.swift */; };
-		2E7E11E22B084EC30075B7DC /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E7E11E12B084EC30075B7DC /* File.swift */; };
+		2E7E11E42B084F8B0075B7DC /* secrets.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2E7E11E32B084F8B0075B7DC /* secrets.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,7 +52,7 @@
 		2E7E11D92B084DE10075B7DC /* ContributionsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContributionsView.swift; sourceTree = "<group>"; };
 		2E7E11DA2B084DE20075B7DC /* ContributionsFetcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContributionsFetcher.swift; sourceTree = "<group>"; };
 		2E7E11DB2B084DE20075B7DC /* ContributionsModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContributionsModel.swift; sourceTree = "<group>"; };
-		2E7E11E12B084EC30075B7DC /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		2E7E11E32B084F8B0075B7DC /* secrets.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = secrets.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,7 +83,7 @@
 		2E7E11A02B084DBA0075B7DC = {
 			isa = PBXGroup;
 			children = (
-				2E7E11E12B084EC30075B7DC /* File.swift */,
+				2E7E11E32B084F8B0075B7DC /* secrets.plist */,
 				2E7E11AB2B084DBA0075B7DC /* Contributions */,
 				2E7E11BD2B084DBB0075B7DC /* ContributionsTests */,
 				2E7E11C72B084DBB0075B7DC /* ContributionsUITests */,
@@ -245,6 +245,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E7E11E42B084F8B0075B7DC /* secrets.plist in Resources */,
 				2E7E11B52B084DBB0075B7DC /* Preview Assets.xcassets in Resources */,
 				2E7E11B12B084DBB0075B7DC /* Assets.xcassets in Resources */,
 			);
@@ -272,7 +273,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				2E7E11DC2B084DE20075B7DC /* ContributionsView.swift in Sources */,
-				2E7E11E22B084EC30075B7DC /* File.swift in Sources */,
 				2E7E11D82B084DD10075B7DC /* TokenMVC.swift in Sources */,
 				2E7E11AD2B084DBA0075B7DC /* ContributionsApp.swift in Sources */,
 				2E7E11DD2B084DE20075B7DC /* ContributionsFetcher.swift in Sources */,
